@@ -1,0 +1,106 @@
+.reg-main {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, #347785, #5cd5d1);
+}
+
+.reg-box {
+    height: 89vh;
+    width: 30% !important;
+    min-width: 280px;
+    background-color: #25335b;
+    position: relative;
+    margin: 0px auto;
+    padding: 0% 3.8%;
+}
+
+.reg-tag {
+    min-height: 5vh;
+    width: fit-content !important;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #055349;
+    background-color: #70F1E1;
+    padding: 1vw 2.5vw !important;
+    z-index: 1;
+}
+
+.reg-img {
+    max-width: 26%;
+    max-height: 23%;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+}
+
+.inp-box {
+    margin-top: 18px;
+    background-color: #4F5972;
+    padding: 1vh 0.2vw;
+    transition: all 0.3s linear;
+
+    &:hover {
+        scale: 1.02;
+    }
+}
+
+#box11 {
+    margin-top: 26vh;
+}
+
+.inp-box input {
+    font-size: 1rem;
+    font-weight: 500;
+    background: transparent;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color: rgb(225 225 225);
+}
+
+.inp-box input::placeholder {
+    color: rgb(187, 182, 182);
+}
+
+.logo {
+    border: none;
+    border-right: 1px solid;
+    padding: 0px 12px;
+    color: rgba(174, 171, 171, 0.46);
+}
+
+.reg-para {
+    margin-top: 13px;
+    color: #347785;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.reg-para p {
+    cursor: pointer;
+}
+
+#reg-btn {
+    min-width: 100%;
+    margin-top: 5px;
+    color: #055349;
+    background-color: #70F1E1;
+}
+
+#reg-switch {
+    display: inline-block;
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: rgb(201, 196, 196);
+    margin-top: 10px;
+    margin-left: 29%;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

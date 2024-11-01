@@ -1,0 +1,50 @@
+.main-box {
+    height: 100vh;
+    width: 100vw;
+    background-color: #347785;
+}
+
+.table-responsive{
+    overflow-y: auto;
+    height: 70%;
+}
+
+.main-box table {
+    border: 1px solid rgb(106, 104, 104);
+    width: 100%;
+}
+
+.main-box table th {
+    padding: 17px;
+    background-color: rgb(26, 24, 24);
+    color: rgb(223 223 223);
+}
+
+.main-box table td {
+    padding: 17px;
+    vertical-align: middle;
+    border-bottom-color: #d7d7d7;
+    background-color: rgb(232 249 255);
+}
+
+.main-box table img {
+    height: 5.6vh;
+    width: max(2.5vw, 40px);
+    object-fit: contain;
+}
+
+.main-box table .active-icon {
+    font-size: 0.6rem;
+}
+
+.logoutbtn{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    padding: 0.5vw 1.5vw;
+    border-radius: 5px;
+    color: #055349;
+    background-color: #70F1E1;
+    border: none;
+    outline: none;
+}
